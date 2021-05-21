@@ -1,5 +1,7 @@
 import random
 
+print('Trataremos de comprobar la probabilidad de que, al lanzar un dado, la mitad de las veces cae par')
+print('Entre más sean las muestras, más se acerca a la probabilidad.')
 n = int(input('Cuátas muestras quiéres tomar?: '))
 n_Aciertos = 0
 
@@ -14,6 +16,4 @@ for i in range(1, n+1):
 
 probabilidad = n_Aciertos / n
 
-print('Trataremos de comprobar la probabilidad de que, al lanzar un dado, la mitad de las veces cae par')
-print('Entre más sean las muestras, más se acerca a la probabilidad.')
 print('La probabiliad es: {}'.format(probabilidad))
